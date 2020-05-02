@@ -3,179 +3,6 @@
             [def files](/onnx/defs) via [this script](/onnx/defs/gen_doc.py).
             Do not modify directly and instead edit operator definitions.*
 
-<<<<<<< HEAD
-* ai.onnx (default)
-  * <a href="#Abs">Abs</a>
-  * <a href="#Acos">Acos</a>
-  * <a href="#Acosh">Acosh</a>
-  * <a href="#Add">Add</a>
-  * <a href="#And">And</a>
-  * <a href="#ArgMax">ArgMax</a>
-  * <a href="#ArgMin">ArgMin</a>
-  * <a href="#Asin">Asin</a>
-  * <a href="#Asinh">Asinh</a>
-  * <a href="#Atan">Atan</a>
-  * <a href="#Atanh">Atanh</a>
-  * <a href="#AveragePool">AveragePool</a>
-  * <a href="#BatchNormalization">BatchNormalization</a>
-  * <a href="#BitShift">BitShift</a>
-  * <a href="#Cast">Cast</a>
-  * <a href="#Ceil">Ceil</a>
-  * <a href="#Clip">Clip</a>
-  * <a href="#Compress">Compress</a>
-  * <a href="#Concat">Concat</a>
-  * <a href="#ConcatFromSequence">ConcatFromSequence</a>
-  * <a href="#Constant">Constant</a>
-  * <a href="#ConstantOfShape">ConstantOfShape</a>
-  * <a href="#Conv">Conv</a>
-  * <a href="#ConvInteger">ConvInteger</a>
-  * <a href="#ConvTranspose">ConvTranspose</a>
-  * <a href="#Cos">Cos</a>
-  * <a href="#Cosh">Cosh</a>
-  * <a href="#CumSum">CumSum</a>
-  * <a href="#DepthToSpace">DepthToSpace</a>
-  * <a href="#DequantizeLinear">DequantizeLinear</a>
-  * <a href="#Det">Det</a>
-  * <a href="#Div">Div</a>
-  * <a href="#Dropout">Dropout</a>
-  * <a href="#Einsum">Einsum</a>
-  * <a href="#Elu">Elu</a>
-  * <a href="#Equal">Equal</a>
-  * <a href="#Erf">Erf</a>
-  * <a href="#Exp">Exp</a>
-  * <a href="#Expand">Expand</a>
-  * <a href="#EyeLike">EyeLike</a>
-  * <a href="#Flatten">Flatten</a>
-  * <a href="#Floor">Floor</a>
-  * <a href="#GRU">GRU</a>
-  * <a href="#Gather">Gather</a>
-  * <a href="#GatherElements">GatherElements</a>
-  * <a href="#GatherND">GatherND</a>
-  * <a href="#Gemm">Gemm</a>
-  * <a href="#GlobalAveragePool">GlobalAveragePool</a>
-  * <a href="#GlobalLpPool">GlobalLpPool</a>
-  * <a href="#GlobalMaxPool">GlobalMaxPool</a>
-  * <a href="#Greater">Greater</a>
-  * <a href="#HardSigmoid">HardSigmoid</a>
-  * <a href="#Hardmax">Hardmax</a>
-  * <a href="#Identity">Identity</a>
-  * <a href="#If">If</a>
-  * <a href="#InstanceNormalization">InstanceNormalization</a>
-  * <a href="#IsInf">IsInf</a>
-  * <a href="#IsNaN">IsNaN</a>
-  * <a href="#LRN">LRN</a>
-  * <a href="#LSTM">LSTM</a>
-  * <a href="#LeakyRelu">LeakyRelu</a>
-  * <a href="#Less">Less</a>
-  * <a href="#Log">Log</a>
-  * <a href="#LogSoftmax">LogSoftmax</a>
-  * <a href="#Loop">Loop</a>
-  * <a href="#LpNormalization">LpNormalization</a>
-  * <a href="#LpPool">LpPool</a>
-  * <a href="#MatMul">MatMul</a>
-  * <a href="#MatMulInteger">MatMulInteger</a>
-  * <a href="#Max">Max</a>
-  * <a href="#MaxPool">MaxPool</a>
-  * <a href="#MaxRoiPool">MaxRoiPool</a>
-  * <a href="#MaxUnpool">MaxUnpool</a>
-  * <a href="#Mean">Mean</a>
-  * <a href="#Min">Min</a>
-  * <a href="#Mod">Mod</a>
-  * <a href="#Mul">Mul</a>
-  * <a href="#Multinomial">Multinomial</a>
-  * <a href="#Neg">Neg</a>
-  * <a href="#NonMaxSuppression">NonMaxSuppression</a>
-  * <a href="#NonZero">NonZero</a>
-  * <a href="#Not">Not</a>
-  * <a href="#OneHot">OneHot</a>
-  * <a href="#Or">Or</a>
-  * <a href="#PRelu">PRelu</a>
-  * <a href="#Pad">Pad</a>
-  * <a href="#Pow">Pow</a>
-  * <a href="#QLinearConv">QLinearConv</a>
-  * <a href="#QLinearMatMul">QLinearMatMul</a>
-  * <a href="#QuantizeLinear">QuantizeLinear</a>
-  * <a href="#RNN">RNN</a>
-  * <a href="#RandomNormal">RandomNormal</a>
-  * <a href="#RandomNormalLike">RandomNormalLike</a>
-  * <a href="#RandomUniform">RandomUniform</a>
-  * <a href="#RandomUniformLike">RandomUniformLike</a>
-  * <a href="#Reciprocal">Reciprocal</a>
-  * <a href="#ReduceL1">ReduceL1</a>
-  * <a href="#ReduceL2">ReduceL2</a>
-  * <a href="#ReduceLogSum">ReduceLogSum</a>
-  * <a href="#ReduceLogSumExp">ReduceLogSumExp</a>
-  * <a href="#ReduceMax">ReduceMax</a>
-  * <a href="#ReduceMean">ReduceMean</a>
-  * <a href="#ReduceMin">ReduceMin</a>
-  * <a href="#ReduceProd">ReduceProd</a>
-  * <a href="#ReduceSum">ReduceSum</a>
-  * <a href="#ReduceSumSquare">ReduceSumSquare</a>
-  * <a href="#Relu">Relu</a>
-  * <a href="#Reshape">Reshape</a>
-  * <a href="#Resize">Resize</a>
-  * <a href="#ReverseSequence">ReverseSequence</a>
-  * <a href="#RoiAlign">RoiAlign</a>
-  * <a href="#Round">Round</a>
-  * <a href="#Scan">Scan</a>
-  * <a href="#Scatter">Scatter</a>
-  * <a href="#ScatterElements">ScatterElements</a>
-  * <a href="#ScatterND">ScatterND</a>
-  * <a href="#Selu">Selu</a>
-  * <a href="#SequenceAt">SequenceAt</a>
-  * <a href="#SequenceConstruct">SequenceConstruct</a>
-  * <a href="#SequenceEmpty">SequenceEmpty</a>
-  * <a href="#SequenceErase">SequenceErase</a>
-  * <a href="#SequenceInsert">SequenceInsert</a>
-  * <a href="#SequenceLength">SequenceLength</a>
-  * <a href="#Shape">Shape</a>
-  * <a href="#Shrink">Shrink</a>
-  * <a href="#Sigmoid">Sigmoid</a>
-  * <a href="#Sign">Sign</a>
-  * <a href="#Sin">Sin</a>
-  * <a href="#Sinh">Sinh</a>
-  * <a href="#Size">Size</a>
-  * <a href="#Slice">Slice</a>
-  * <a href="#Softmax">Softmax</a>
-  * <a href="#Softplus">Softplus</a>
-  * <a href="#Softsign">Softsign</a>
-  * <a href="#SpaceToDepth">SpaceToDepth</a>
-  * <a href="#Split">Split</a>
-  * <a href="#SplitToSequence">SplitToSequence</a>
-  * <a href="#Sqrt">Sqrt</a>
-  * <a href="#Squeeze">Squeeze</a>
-  * <a href="#StringNormalizer">StringNormalizer</a>
-  * <a href="#Sub">Sub</a>
-  * <a href="#Sum">Sum</a>
-  * <a href="#Tan">Tan</a>
-  * <a href="#Tanh">Tanh</a>
-  * <a href="#TfIdfVectorizer">TfIdfVectorizer</a>
-  * <a href="#ThresholdedRelu">ThresholdedRelu</a>
-  * <a href="#Tile">Tile</a>
-  * <a href="#TopK">TopK</a>
-  * <a href="#Transpose">Transpose</a>
-  * <a href="#Unique">Unique</a>
-  * <a href="#Unsqueeze">Unsqueeze</a>
-  * <a href="#Upsample">Upsample</a>
-  * <a href="#Where">Where</a>
-  * <a href="#Xor">Xor</a>
-
-  **Functions**
-  * <a href="#Celu">Celu</a>
-  * <a href="#DynamicQuantizeLinear">DynamicQuantizeLinear</a>
-  * <a href="#GreaterOrEqual">GreaterOrEqual</a>
-  * <a href="#LessOrEqual">LessOrEqual</a>
-  * <a href="#MeanVarianceNormalization">MeanVarianceNormalization</a>
-  * <a href="#NegativeLogLikelihoodLoss">NegativeLogLikelihoodLoss</a>
-  * <a href="#Range">Range</a>
-  * <a href="#SoftmaxCrossEntropyLoss">SoftmaxCrossEntropyLoss</a>
-* ai.onnx.preview.training
-  * <a href="#ai.onnx.preview.training.Adagrad">ai.onnx.preview.training.Adagrad</a>
-  * <a href="#ai.onnx.preview.training.Adam">ai.onnx.preview.training.Adam</a>
-  * <a href="#ai.onnx.preview.training.Gradient">ai.onnx.preview.training.Gradient</a>
-  * <a href="#ai.onnx.preview.training.GraphCall">ai.onnx.preview.training.GraphCall</a>
-  * <a href="#ai.onnx.preview.training.Momentum">ai.onnx.preview.training.Momentum</a>
-=======
 ### ai.onnx (default)
 |**Operator**|**Since version**|
 |-|-|
@@ -191,7 +18,7 @@
 |<a href="#Atan">Atan</a>|<a href="Changelog.md#Atan-7">7</a>|
 |<a href="#Atanh">Atanh</a>|<a href="Changelog.md#Atanh-9">9</a>|
 |<a href="#AveragePool">AveragePool</a>|<a href="Changelog.md#AveragePool-11">11</a>, <a href="Changelog.md#AveragePool-10">10</a>, <a href="Changelog.md#AveragePool-7">7</a>, <a href="Changelog.md#AveragePool-1">1</a>|
-|<a href="#BatchNormalization">BatchNormalization</a>|<a href="Changelog.md#BatchNormalization-12">12</a>, <a href="Changelog.md#BatchNormalization-9">9</a>, <a href="Changelog.md#BatchNormalization-7">7</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-1">1</a>|
+|<a href="#BatchNormalization">BatchNormalization</a>|<a href="Changelog.md#BatchNormalization-9">9</a>, <a href="Changelog.md#BatchNormalization-7">7</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-1">1</a>|
 |<a href="#BitShift">BitShift</a>|<a href="Changelog.md#BitShift-11">11</a>|
 |<a href="#Cast">Cast</a>|<a href="Changelog.md#Cast-9">9</a>, <a href="Changelog.md#Cast-6">6</a>, <a href="Changelog.md#Cast-1">1</a>|
 |<a href="#Ceil">Ceil</a>|<a href="Changelog.md#Ceil-6">6</a>, <a href="Changelog.md#Ceil-1">1</a>|
@@ -235,7 +62,6 @@
 |<a href="#Identity">Identity</a>|<a href="Changelog.md#Identity-1">1</a>|
 |<a href="#If">If</a>|<a href="Changelog.md#If-11">11</a>, <a href="Changelog.md#If-1">1</a>|
 |<a href="#InstanceNormalization">InstanceNormalization</a>|<a href="Changelog.md#InstanceNormalization-6">6</a>, <a href="Changelog.md#InstanceNormalization-1">1</a>|
-|<a href="#Inverse">Inverse</a>|<a href="Changelog.md#Inverse-12">12</a>|
 |<a href="#IsInf">IsInf</a>|<a href="Changelog.md#IsInf-10">10</a>|
 |<a href="#IsNaN">IsNaN</a>|<a href="Changelog.md#IsNaN-9">9</a>|
 |<a href="#LRN">LRN</a>|<a href="Changelog.md#LRN-1">1</a>|
@@ -329,7 +155,6 @@
 |<a href="#Tile">Tile</a>|<a href="Changelog.md#Tile-6">6</a>, <a href="Changelog.md#Tile-1">1</a>|
 |<a href="#TopK">TopK</a>|<a href="Changelog.md#TopK-11">11</a>, <a href="Changelog.md#TopK-10">10</a>, <a href="Changelog.md#TopK-1">1</a>|
 |<a href="#Transpose">Transpose</a>|<a href="Changelog.md#Transpose-1">1</a>|
-|<a href="#UnfoldToDepth">UnfoldToDepth</a>|<a href="Changelog.md#UnfoldToDepth-12">12</a>|
 |<a href="#Unique">Unique</a>|<a href="Changelog.md#Unique-11">11</a>|
 |<a href="#Unsqueeze">Unsqueeze</a>|<a href="Changelog.md#Unsqueeze-11">11</a>, <a href="Changelog.md#Unsqueeze-1">1</a>|
 |<a href="#Upsample">Upsample</a> (deprecated)|<a href="Changelog.md#Upsample-10">10</a>, <a href="Changelog.md#Upsample-9">9</a>, <a href="Changelog.md#Upsample-7">7</a>|
@@ -340,22 +165,20 @@
 |<a href="#DynamicQuantizeLinear">DynamicQuantizeLinear</a>|<a href="Changelog.md#DynamicQuantizeLinear-11">11</a>|
 |<a href="#GreaterOrEqual">GreaterOrEqual</a>|<a href="Changelog.md#GreaterOrEqual-12">12</a>|
 |<a href="#LessOrEqual">LessOrEqual</a>|<a href="Changelog.md#LessOrEqual-12">12</a>|
-|<a href="#MeanSquaredDistance">MeanSquaredDistance</a>|<a href="Changelog.md#MeanSquaredDistance-12">12</a>|
 |<a href="#MeanVarianceNormalization">MeanVarianceNormalization</a>|<a href="Changelog.md#MeanVarianceNormalization-9">9</a>|
 |<a href="#NegativeLogLikelihoodLoss">NegativeLogLikelihoodLoss</a>|<a href="Changelog.md#NegativeLogLikelihoodLoss-12">12</a>|
 |<a href="#Range">Range</a>|<a href="Changelog.md#Range-11">11</a>|
 |<a href="#SoftmaxCrossEntropyLoss">SoftmaxCrossEntropyLoss</a>|<a href="Changelog.md#SoftmaxCrossEntropyLoss-12">12</a>|
 
-### ai.onnx.training
+### ai.onnx.preview.training
 |**Operator**|**Since version**|
 |-|-|
-|<a href="#ai.onnx.training.Adagrad">ai.onnx.training.Adagrad</a>|<a href="Changelog.md#ai.onnx.training.Adagrad-1">1</a>|
-|<a href="#ai.onnx.training.Adam">ai.onnx.training.Adam</a>|<a href="Changelog.md#ai.onnx.training.Adam-1">1</a>|
-|<a href="#ai.onnx.training.Gradient">ai.onnx.training.Gradient</a>|<a href="Changelog.md#ai.onnx.training.Gradient-1">1</a>|
-|<a href="#ai.onnx.training.GraphCall">ai.onnx.training.GraphCall</a>|<a href="Changelog.md#ai.onnx.training.GraphCall-1">1</a>|
-|<a href="#ai.onnx.training.Momentum">ai.onnx.training.Momentum</a>|<a href="Changelog.md#ai.onnx.training.Momentum-1">1</a>|
+|<a href="#ai.onnx.preview.training.Adagrad">ai.onnx.preview.training.Adagrad</a>|<a href="Changelog.md#ai.onnx.preview.training.Adagrad-1">1</a>|
+|<a href="#ai.onnx.preview.training.Adam">ai.onnx.preview.training.Adam</a>|<a href="Changelog.md#ai.onnx.preview.training.Adam-1">1</a>|
+|<a href="#ai.onnx.preview.training.Gradient">ai.onnx.preview.training.Gradient</a>|<a href="Changelog.md#ai.onnx.preview.training.Gradient-1">1</a>|
+|<a href="#ai.onnx.preview.training.GraphCall">ai.onnx.preview.training.GraphCall</a>|<a href="Changelog.md#ai.onnx.preview.training.GraphCall-1">1</a>|
+|<a href="#ai.onnx.preview.training.Momentum">ai.onnx.preview.training.Momentum</a>|<a href="Changelog.md#ai.onnx.preview.training.Momentum-1">1</a>|
 
->>>>>>> cbee859537e33f97684244f685a08ec80f41f643
 
 ## ai.onnx (default)
 ### <a name="Abs"></a><a name="abs">**Abs**</a>
@@ -2017,11 +1840,7 @@ expect(node, inputs=[x], outputs=[y], name='test_averagepool_3d_default')
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-<<<<<<< HEAD
-Other versions of this operator: <a href="Changelog.md#BatchNormalization-1">BatchNormalization-1</a>, <a href="Changelog.md#BatchNormalization-6">BatchNormalization-6</a>, <a href="Changelog.md#BatchNormalization-7">BatchNormalization-7</a>
-=======
-Other versions of this operator: <a href="Changelog.md#BatchNormalization-1">1</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-7">7</a>, <a href="Changelog.md#BatchNormalization-9">9</a>
->>>>>>> cbee859537e33f97684244f685a08ec80f41f643
+Other versions of this operator: <a href="Changelog.md#BatchNormalization-1">1</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-7">7</a>
 
 #### Attributes
 

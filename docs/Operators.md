@@ -3,6 +3,7 @@
             [def files](/onnx/defs) via [this script](/onnx/defs/gen_doc.py).
             Do not modify directly and instead edit operator definitions.*
 
+<<<<<<< HEAD
 * ai.onnx (default)
   * <a href="#Abs">Abs</a>
   * <a href="#Acos">Acos</a>
@@ -174,6 +175,187 @@
   * <a href="#ai.onnx.preview.training.Gradient">ai.onnx.preview.training.Gradient</a>
   * <a href="#ai.onnx.preview.training.GraphCall">ai.onnx.preview.training.GraphCall</a>
   * <a href="#ai.onnx.preview.training.Momentum">ai.onnx.preview.training.Momentum</a>
+=======
+### ai.onnx (default)
+|**Operator**|**Since version**|
+|-|-|
+|<a href="#Abs">Abs</a>|<a href="Changelog.md#Abs-6">6</a>, <a href="Changelog.md#Abs-1">1</a>|
+|<a href="#Acos">Acos</a>|<a href="Changelog.md#Acos-7">7</a>|
+|<a href="#Acosh">Acosh</a>|<a href="Changelog.md#Acosh-9">9</a>|
+|<a href="#Add">Add</a>|<a href="Changelog.md#Add-7">7</a>, <a href="Changelog.md#Add-6">6</a>, <a href="Changelog.md#Add-1">1</a>|
+|<a href="#And">And</a>|<a href="Changelog.md#And-7">7</a>, <a href="Changelog.md#And-1">1</a>|
+|<a href="#ArgMax">ArgMax</a>|<a href="Changelog.md#ArgMax-12">12</a>, <a href="Changelog.md#ArgMax-11">11</a>, <a href="Changelog.md#ArgMax-1">1</a>|
+|<a href="#ArgMin">ArgMin</a>|<a href="Changelog.md#ArgMin-12">12</a>, <a href="Changelog.md#ArgMin-11">11</a>, <a href="Changelog.md#ArgMin-1">1</a>|
+|<a href="#Asin">Asin</a>|<a href="Changelog.md#Asin-7">7</a>|
+|<a href="#Asinh">Asinh</a>|<a href="Changelog.md#Asinh-9">9</a>|
+|<a href="#Atan">Atan</a>|<a href="Changelog.md#Atan-7">7</a>|
+|<a href="#Atanh">Atanh</a>|<a href="Changelog.md#Atanh-9">9</a>|
+|<a href="#AveragePool">AveragePool</a>|<a href="Changelog.md#AveragePool-11">11</a>, <a href="Changelog.md#AveragePool-10">10</a>, <a href="Changelog.md#AveragePool-7">7</a>, <a href="Changelog.md#AveragePool-1">1</a>|
+|<a href="#BatchNormalization">BatchNormalization</a>|<a href="Changelog.md#BatchNormalization-12">12</a>, <a href="Changelog.md#BatchNormalization-9">9</a>, <a href="Changelog.md#BatchNormalization-7">7</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-1">1</a>|
+|<a href="#BitShift">BitShift</a>|<a href="Changelog.md#BitShift-11">11</a>|
+|<a href="#Cast">Cast</a>|<a href="Changelog.md#Cast-9">9</a>, <a href="Changelog.md#Cast-6">6</a>, <a href="Changelog.md#Cast-1">1</a>|
+|<a href="#Ceil">Ceil</a>|<a href="Changelog.md#Ceil-6">6</a>, <a href="Changelog.md#Ceil-1">1</a>|
+|<a href="#Clip">Clip</a>|<a href="Changelog.md#Clip-12">12</a>, <a href="Changelog.md#Clip-11">11</a>, <a href="Changelog.md#Clip-6">6</a>, <a href="Changelog.md#Clip-1">1</a>|
+|<a href="#Compress">Compress</a>|<a href="Changelog.md#Compress-11">11</a>, <a href="Changelog.md#Compress-9">9</a>|
+|<a href="#Concat">Concat</a>|<a href="Changelog.md#Concat-11">11</a>, <a href="Changelog.md#Concat-4">4</a>, <a href="Changelog.md#Concat-1">1</a>|
+|<a href="#ConcatFromSequence">ConcatFromSequence</a>|<a href="Changelog.md#ConcatFromSequence-11">11</a>|
+|<a href="#Constant">Constant</a>|<a href="Changelog.md#Constant-12">12</a>, <a href="Changelog.md#Constant-11">11</a>, <a href="Changelog.md#Constant-9">9</a>, <a href="Changelog.md#Constant-1">1</a>|
+|<a href="#ConstantOfShape">ConstantOfShape</a>|<a href="Changelog.md#ConstantOfShape-9">9</a>|
+|<a href="#Conv">Conv</a>|<a href="Changelog.md#Conv-11">11</a>, <a href="Changelog.md#Conv-1">1</a>|
+|<a href="#ConvInteger">ConvInteger</a>|<a href="Changelog.md#ConvInteger-10">10</a>|
+|<a href="#ConvTranspose">ConvTranspose</a>|<a href="Changelog.md#ConvTranspose-11">11</a>, <a href="Changelog.md#ConvTranspose-1">1</a>|
+|<a href="#Cos">Cos</a>|<a href="Changelog.md#Cos-7">7</a>|
+|<a href="#Cosh">Cosh</a>|<a href="Changelog.md#Cosh-9">9</a>|
+|<a href="#CumSum">CumSum</a>|<a href="Changelog.md#CumSum-11">11</a>|
+|<a href="#DepthToSpace">DepthToSpace</a>|<a href="Changelog.md#DepthToSpace-11">11</a>, <a href="Changelog.md#DepthToSpace-1">1</a>|
+|<a href="#DequantizeLinear">DequantizeLinear</a>|<a href="Changelog.md#DequantizeLinear-10">10</a>|
+|<a href="#Det">Det</a>|<a href="Changelog.md#Det-11">11</a>|
+|<a href="#Div">Div</a>|<a href="Changelog.md#Div-7">7</a>, <a href="Changelog.md#Div-6">6</a>, <a href="Changelog.md#Div-1">1</a>|
+|<a href="#Dropout">Dropout</a>|<a href="Changelog.md#Dropout-12">12</a>, <a href="Changelog.md#Dropout-10">10</a>, <a href="Changelog.md#Dropout-7">7</a>, <a href="Changelog.md#Dropout-6">6</a>, <a href="Changelog.md#Dropout-1">1</a>|
+|<a href="#Einsum">Einsum</a>|<a href="Changelog.md#Einsum-12">12</a>|
+|<a href="#Elu">Elu</a>|<a href="Changelog.md#Elu-6">6</a>, <a href="Changelog.md#Elu-1">1</a>|
+|<a href="#Equal">Equal</a>|<a href="Changelog.md#Equal-11">11</a>, <a href="Changelog.md#Equal-7">7</a>, <a href="Changelog.md#Equal-1">1</a>|
+|<a href="#Erf">Erf</a>|<a href="Changelog.md#Erf-9">9</a>|
+|<a href="#Exp">Exp</a>|<a href="Changelog.md#Exp-6">6</a>, <a href="Changelog.md#Exp-1">1</a>|
+|<a href="#Expand">Expand</a>|<a href="Changelog.md#Expand-8">8</a>|
+|<a href="#EyeLike">EyeLike</a>|<a href="Changelog.md#EyeLike-9">9</a>|
+|<a href="#Flatten">Flatten</a>|<a href="Changelog.md#Flatten-11">11</a>, <a href="Changelog.md#Flatten-9">9</a>, <a href="Changelog.md#Flatten-1">1</a>|
+|<a href="#Floor">Floor</a>|<a href="Changelog.md#Floor-6">6</a>, <a href="Changelog.md#Floor-1">1</a>|
+|<a href="#GRU">GRU</a>|<a href="Changelog.md#GRU-7">7</a>, <a href="Changelog.md#GRU-3">3</a>, <a href="Changelog.md#GRU-1">1</a>|
+|<a href="#Gather">Gather</a>|<a href="Changelog.md#Gather-11">11</a>, <a href="Changelog.md#Gather-1">1</a>|
+|<a href="#GatherElements">GatherElements</a>|<a href="Changelog.md#GatherElements-11">11</a>|
+|<a href="#GatherND">GatherND</a>|<a href="Changelog.md#GatherND-12">12</a>, <a href="Changelog.md#GatherND-11">11</a>|
+|<a href="#Gemm">Gemm</a>|<a href="Changelog.md#Gemm-11">11</a>, <a href="Changelog.md#Gemm-9">9</a>, <a href="Changelog.md#Gemm-7">7</a>, <a href="Changelog.md#Gemm-6">6</a>, <a href="Changelog.md#Gemm-1">1</a>|
+|<a href="#GlobalAveragePool">GlobalAveragePool</a>|<a href="Changelog.md#GlobalAveragePool-1">1</a>|
+|<a href="#GlobalLpPool">GlobalLpPool</a>|<a href="Changelog.md#GlobalLpPool-2">2</a>, <a href="Changelog.md#GlobalLpPool-1">1</a>|
+|<a href="#GlobalMaxPool">GlobalMaxPool</a>|<a href="Changelog.md#GlobalMaxPool-1">1</a>|
+|<a href="#Greater">Greater</a>|<a href="Changelog.md#Greater-9">9</a>, <a href="Changelog.md#Greater-7">7</a>, <a href="Changelog.md#Greater-1">1</a>|
+|<a href="#HardSigmoid">HardSigmoid</a>|<a href="Changelog.md#HardSigmoid-6">6</a>, <a href="Changelog.md#HardSigmoid-1">1</a>|
+|<a href="#Hardmax">Hardmax</a>|<a href="Changelog.md#Hardmax-11">11</a>, <a href="Changelog.md#Hardmax-1">1</a>|
+|<a href="#Identity">Identity</a>|<a href="Changelog.md#Identity-1">1</a>|
+|<a href="#If">If</a>|<a href="Changelog.md#If-11">11</a>, <a href="Changelog.md#If-1">1</a>|
+|<a href="#InstanceNormalization">InstanceNormalization</a>|<a href="Changelog.md#InstanceNormalization-6">6</a>, <a href="Changelog.md#InstanceNormalization-1">1</a>|
+|<a href="#Inverse">Inverse</a>|<a href="Changelog.md#Inverse-12">12</a>|
+|<a href="#IsInf">IsInf</a>|<a href="Changelog.md#IsInf-10">10</a>|
+|<a href="#IsNaN">IsNaN</a>|<a href="Changelog.md#IsNaN-9">9</a>|
+|<a href="#LRN">LRN</a>|<a href="Changelog.md#LRN-1">1</a>|
+|<a href="#LSTM">LSTM</a>|<a href="Changelog.md#LSTM-7">7</a>, <a href="Changelog.md#LSTM-1">1</a>|
+|<a href="#LeakyRelu">LeakyRelu</a>|<a href="Changelog.md#LeakyRelu-6">6</a>, <a href="Changelog.md#LeakyRelu-1">1</a>|
+|<a href="#Less">Less</a>|<a href="Changelog.md#Less-9">9</a>, <a href="Changelog.md#Less-7">7</a>, <a href="Changelog.md#Less-1">1</a>|
+|<a href="#Log">Log</a>|<a href="Changelog.md#Log-6">6</a>, <a href="Changelog.md#Log-1">1</a>|
+|<a href="#LogSoftmax">LogSoftmax</a>|<a href="Changelog.md#LogSoftmax-11">11</a>, <a href="Changelog.md#LogSoftmax-1">1</a>|
+|<a href="#Loop">Loop</a>|<a href="Changelog.md#Loop-11">11</a>, <a href="Changelog.md#Loop-1">1</a>|
+|<a href="#LpNormalization">LpNormalization</a>|<a href="Changelog.md#LpNormalization-1">1</a>|
+|<a href="#LpPool">LpPool</a>|<a href="Changelog.md#LpPool-11">11</a>, <a href="Changelog.md#LpPool-2">2</a>, <a href="Changelog.md#LpPool-1">1</a>|
+|<a href="#MatMul">MatMul</a>|<a href="Changelog.md#MatMul-9">9</a>, <a href="Changelog.md#MatMul-1">1</a>|
+|<a href="#MatMulInteger">MatMulInteger</a>|<a href="Changelog.md#MatMulInteger-10">10</a>|
+|<a href="#Max">Max</a>|<a href="Changelog.md#Max-12">12</a>, <a href="Changelog.md#Max-8">8</a>, <a href="Changelog.md#Max-6">6</a>, <a href="Changelog.md#Max-1">1</a>|
+|<a href="#MaxPool">MaxPool</a>|<a href="Changelog.md#MaxPool-12">12</a>, <a href="Changelog.md#MaxPool-11">11</a>, <a href="Changelog.md#MaxPool-10">10</a>, <a href="Changelog.md#MaxPool-8">8</a>, <a href="Changelog.md#MaxPool-1">1</a>|
+|<a href="#MaxRoiPool">MaxRoiPool</a>|<a href="Changelog.md#MaxRoiPool-1">1</a>|
+|<a href="#MaxUnpool">MaxUnpool</a>|<a href="Changelog.md#MaxUnpool-11">11</a>, <a href="Changelog.md#MaxUnpool-9">9</a>|
+|<a href="#Mean">Mean</a>|<a href="Changelog.md#Mean-8">8</a>, <a href="Changelog.md#Mean-6">6</a>, <a href="Changelog.md#Mean-1">1</a>|
+|<a href="#Min">Min</a>|<a href="Changelog.md#Min-12">12</a>, <a href="Changelog.md#Min-8">8</a>, <a href="Changelog.md#Min-6">6</a>, <a href="Changelog.md#Min-1">1</a>|
+|<a href="#Mod">Mod</a>|<a href="Changelog.md#Mod-10">10</a>|
+|<a href="#Mul">Mul</a>|<a href="Changelog.md#Mul-7">7</a>, <a href="Changelog.md#Mul-6">6</a>, <a href="Changelog.md#Mul-1">1</a>|
+|<a href="#Multinomial">Multinomial</a>|<a href="Changelog.md#Multinomial-7">7</a>|
+|<a href="#Neg">Neg</a>|<a href="Changelog.md#Neg-6">6</a>, <a href="Changelog.md#Neg-1">1</a>|
+|<a href="#NonMaxSuppression">NonMaxSuppression</a>|<a href="Changelog.md#NonMaxSuppression-11">11</a>, <a href="Changelog.md#NonMaxSuppression-10">10</a>|
+|<a href="#NonZero">NonZero</a>|<a href="Changelog.md#NonZero-9">9</a>|
+|<a href="#Not">Not</a>|<a href="Changelog.md#Not-1">1</a>|
+|<a href="#OneHot">OneHot</a>|<a href="Changelog.md#OneHot-11">11</a>, <a href="Changelog.md#OneHot-9">9</a>|
+|<a href="#Or">Or</a>|<a href="Changelog.md#Or-7">7</a>, <a href="Changelog.md#Or-1">1</a>|
+|<a href="#PRelu">PRelu</a>|<a href="Changelog.md#PRelu-9">9</a>, <a href="Changelog.md#PRelu-7">7</a>, <a href="Changelog.md#PRelu-6">6</a>, <a href="Changelog.md#PRelu-1">1</a>|
+|<a href="#Pad">Pad</a>|<a href="Changelog.md#Pad-11">11</a>, <a href="Changelog.md#Pad-2">2</a>, <a href="Changelog.md#Pad-1">1</a>|
+|<a href="#Pow">Pow</a>|<a href="Changelog.md#Pow-12">12</a>, <a href="Changelog.md#Pow-7">7</a>, <a href="Changelog.md#Pow-1">1</a>|
+|<a href="#QLinearConv">QLinearConv</a>|<a href="Changelog.md#QLinearConv-10">10</a>|
+|<a href="#QLinearMatMul">QLinearMatMul</a>|<a href="Changelog.md#QLinearMatMul-10">10</a>|
+|<a href="#QuantizeLinear">QuantizeLinear</a>|<a href="Changelog.md#QuantizeLinear-10">10</a>|
+|<a href="#RNN">RNN</a>|<a href="Changelog.md#RNN-7">7</a>, <a href="Changelog.md#RNN-1">1</a>|
+|<a href="#RandomNormal">RandomNormal</a>|<a href="Changelog.md#RandomNormal-1">1</a>|
+|<a href="#RandomNormalLike">RandomNormalLike</a>|<a href="Changelog.md#RandomNormalLike-1">1</a>|
+|<a href="#RandomUniform">RandomUniform</a>|<a href="Changelog.md#RandomUniform-1">1</a>|
+|<a href="#RandomUniformLike">RandomUniformLike</a>|<a href="Changelog.md#RandomUniformLike-1">1</a>|
+|<a href="#Reciprocal">Reciprocal</a>|<a href="Changelog.md#Reciprocal-6">6</a>, <a href="Changelog.md#Reciprocal-1">1</a>|
+|<a href="#ReduceL1">ReduceL1</a>|<a href="Changelog.md#ReduceL1-11">11</a>, <a href="Changelog.md#ReduceL1-1">1</a>|
+|<a href="#ReduceL2">ReduceL2</a>|<a href="Changelog.md#ReduceL2-11">11</a>, <a href="Changelog.md#ReduceL2-1">1</a>|
+|<a href="#ReduceLogSum">ReduceLogSum</a>|<a href="Changelog.md#ReduceLogSum-11">11</a>, <a href="Changelog.md#ReduceLogSum-1">1</a>|
+|<a href="#ReduceLogSumExp">ReduceLogSumExp</a>|<a href="Changelog.md#ReduceLogSumExp-11">11</a>, <a href="Changelog.md#ReduceLogSumExp-1">1</a>|
+|<a href="#ReduceMax">ReduceMax</a>|<a href="Changelog.md#ReduceMax-12">12</a>, <a href="Changelog.md#ReduceMax-11">11</a>, <a href="Changelog.md#ReduceMax-1">1</a>|
+|<a href="#ReduceMean">ReduceMean</a>|<a href="Changelog.md#ReduceMean-11">11</a>, <a href="Changelog.md#ReduceMean-1">1</a>|
+|<a href="#ReduceMin">ReduceMin</a>|<a href="Changelog.md#ReduceMin-12">12</a>, <a href="Changelog.md#ReduceMin-11">11</a>, <a href="Changelog.md#ReduceMin-1">1</a>|
+|<a href="#ReduceProd">ReduceProd</a>|<a href="Changelog.md#ReduceProd-11">11</a>, <a href="Changelog.md#ReduceProd-1">1</a>|
+|<a href="#ReduceSum">ReduceSum</a>|<a href="Changelog.md#ReduceSum-11">11</a>, <a href="Changelog.md#ReduceSum-1">1</a>|
+|<a href="#ReduceSumSquare">ReduceSumSquare</a>|<a href="Changelog.md#ReduceSumSquare-11">11</a>, <a href="Changelog.md#ReduceSumSquare-1">1</a>|
+|<a href="#Relu">Relu</a>|<a href="Changelog.md#Relu-6">6</a>, <a href="Changelog.md#Relu-1">1</a>|
+|<a href="#Reshape">Reshape</a>|<a href="Changelog.md#Reshape-5">5</a>, <a href="Changelog.md#Reshape-1">1</a>|
+|<a href="#Resize">Resize</a>|<a href="Changelog.md#Resize-11">11</a>, <a href="Changelog.md#Resize-10">10</a>|
+|<a href="#ReverseSequence">ReverseSequence</a>|<a href="Changelog.md#ReverseSequence-10">10</a>|
+|<a href="#RoiAlign">RoiAlign</a>|<a href="Changelog.md#RoiAlign-10">10</a>|
+|<a href="#Round">Round</a>|<a href="Changelog.md#Round-11">11</a>|
+|<a href="#Scan">Scan</a>|<a href="Changelog.md#Scan-11">11</a>, <a href="Changelog.md#Scan-9">9</a>, <a href="Changelog.md#Scan-8">8</a>|
+|<a href="#Scatter">Scatter</a> (deprecated)|<a href="Changelog.md#Scatter-11">11</a>, <a href="Changelog.md#Scatter-9">9</a>|
+|<a href="#ScatterElements">ScatterElements</a>|<a href="Changelog.md#ScatterElements-11">11</a>|
+|<a href="#ScatterND">ScatterND</a>|<a href="Changelog.md#ScatterND-11">11</a>|
+|<a href="#Selu">Selu</a>|<a href="Changelog.md#Selu-6">6</a>, <a href="Changelog.md#Selu-1">1</a>|
+|<a href="#SequenceAt">SequenceAt</a>|<a href="Changelog.md#SequenceAt-11">11</a>|
+|<a href="#SequenceConstruct">SequenceConstruct</a>|<a href="Changelog.md#SequenceConstruct-11">11</a>|
+|<a href="#SequenceEmpty">SequenceEmpty</a>|<a href="Changelog.md#SequenceEmpty-11">11</a>|
+|<a href="#SequenceErase">SequenceErase</a>|<a href="Changelog.md#SequenceErase-11">11</a>|
+|<a href="#SequenceInsert">SequenceInsert</a>|<a href="Changelog.md#SequenceInsert-11">11</a>|
+|<a href="#SequenceLength">SequenceLength</a>|<a href="Changelog.md#SequenceLength-11">11</a>|
+|<a href="#Shape">Shape</a>|<a href="Changelog.md#Shape-1">1</a>|
+|<a href="#Shrink">Shrink</a>|<a href="Changelog.md#Shrink-9">9</a>|
+|<a href="#Sigmoid">Sigmoid</a>|<a href="Changelog.md#Sigmoid-6">6</a>, <a href="Changelog.md#Sigmoid-1">1</a>|
+|<a href="#Sign">Sign</a>|<a href="Changelog.md#Sign-9">9</a>|
+|<a href="#Sin">Sin</a>|<a href="Changelog.md#Sin-7">7</a>|
+|<a href="#Sinh">Sinh</a>|<a href="Changelog.md#Sinh-9">9</a>|
+|<a href="#Size">Size</a>|<a href="Changelog.md#Size-1">1</a>|
+|<a href="#Slice">Slice</a>|<a href="Changelog.md#Slice-11">11</a>, <a href="Changelog.md#Slice-10">10</a>, <a href="Changelog.md#Slice-1">1</a>|
+|<a href="#Softmax">Softmax</a>|<a href="Changelog.md#Softmax-11">11</a>, <a href="Changelog.md#Softmax-1">1</a>|
+|<a href="#Softplus">Softplus</a>|<a href="Changelog.md#Softplus-1">1</a>|
+|<a href="#Softsign">Softsign</a>|<a href="Changelog.md#Softsign-1">1</a>|
+|<a href="#SpaceToDepth">SpaceToDepth</a>|<a href="Changelog.md#SpaceToDepth-1">1</a>|
+|<a href="#Split">Split</a>|<a href="Changelog.md#Split-11">11</a>, <a href="Changelog.md#Split-2">2</a>, <a href="Changelog.md#Split-1">1</a>|
+|<a href="#SplitToSequence">SplitToSequence</a>|<a href="Changelog.md#SplitToSequence-11">11</a>|
+|<a href="#Sqrt">Sqrt</a>|<a href="Changelog.md#Sqrt-6">6</a>, <a href="Changelog.md#Sqrt-1">1</a>|
+|<a href="#Squeeze">Squeeze</a>|<a href="Changelog.md#Squeeze-11">11</a>, <a href="Changelog.md#Squeeze-1">1</a>|
+|<a href="#StringNormalizer">StringNormalizer</a>|<a href="Changelog.md#StringNormalizer-10">10</a>|
+|<a href="#Sub">Sub</a>|<a href="Changelog.md#Sub-7">7</a>, <a href="Changelog.md#Sub-6">6</a>, <a href="Changelog.md#Sub-1">1</a>|
+|<a href="#Sum">Sum</a>|<a href="Changelog.md#Sum-8">8</a>, <a href="Changelog.md#Sum-6">6</a>, <a href="Changelog.md#Sum-1">1</a>|
+|<a href="#Tan">Tan</a>|<a href="Changelog.md#Tan-7">7</a>|
+|<a href="#Tanh">Tanh</a>|<a href="Changelog.md#Tanh-6">6</a>, <a href="Changelog.md#Tanh-1">1</a>|
+|<a href="#TfIdfVectorizer">TfIdfVectorizer</a>|<a href="Changelog.md#TfIdfVectorizer-9">9</a>|
+|<a href="#ThresholdedRelu">ThresholdedRelu</a>|<a href="Changelog.md#ThresholdedRelu-10">10</a>|
+|<a href="#Tile">Tile</a>|<a href="Changelog.md#Tile-6">6</a>, <a href="Changelog.md#Tile-1">1</a>|
+|<a href="#TopK">TopK</a>|<a href="Changelog.md#TopK-11">11</a>, <a href="Changelog.md#TopK-10">10</a>, <a href="Changelog.md#TopK-1">1</a>|
+|<a href="#Transpose">Transpose</a>|<a href="Changelog.md#Transpose-1">1</a>|
+|<a href="#UnfoldToDepth">UnfoldToDepth</a>|<a href="Changelog.md#UnfoldToDepth-12">12</a>|
+|<a href="#Unique">Unique</a>|<a href="Changelog.md#Unique-11">11</a>|
+|<a href="#Unsqueeze">Unsqueeze</a>|<a href="Changelog.md#Unsqueeze-11">11</a>, <a href="Changelog.md#Unsqueeze-1">1</a>|
+|<a href="#Upsample">Upsample</a> (deprecated)|<a href="Changelog.md#Upsample-10">10</a>, <a href="Changelog.md#Upsample-9">9</a>, <a href="Changelog.md#Upsample-7">7</a>|
+|<a href="#Where">Where</a>|<a href="Changelog.md#Where-9">9</a>|
+|<a href="#Xor">Xor</a>|<a href="Changelog.md#Xor-7">7</a>, <a href="Changelog.md#Xor-1">1</a>|
+|**Function**|**Since version**|
+|<a href="#Celu">Celu</a>|<a href="Changelog.md#Celu-12">12</a>|
+|<a href="#DynamicQuantizeLinear">DynamicQuantizeLinear</a>|<a href="Changelog.md#DynamicQuantizeLinear-11">11</a>|
+|<a href="#GreaterOrEqual">GreaterOrEqual</a>|<a href="Changelog.md#GreaterOrEqual-12">12</a>|
+|<a href="#LessOrEqual">LessOrEqual</a>|<a href="Changelog.md#LessOrEqual-12">12</a>|
+|<a href="#MeanSquaredDistance">MeanSquaredDistance</a>|<a href="Changelog.md#MeanSquaredDistance-12">12</a>|
+|<a href="#MeanVarianceNormalization">MeanVarianceNormalization</a>|<a href="Changelog.md#MeanVarianceNormalization-9">9</a>|
+|<a href="#NegativeLogLikelihoodLoss">NegativeLogLikelihoodLoss</a>|<a href="Changelog.md#NegativeLogLikelihoodLoss-12">12</a>|
+|<a href="#Range">Range</a>|<a href="Changelog.md#Range-11">11</a>|
+|<a href="#SoftmaxCrossEntropyLoss">SoftmaxCrossEntropyLoss</a>|<a href="Changelog.md#SoftmaxCrossEntropyLoss-12">12</a>|
+
+### ai.onnx.training
+|**Operator**|**Since version**|
+|-|-|
+|<a href="#ai.onnx.training.Adagrad">ai.onnx.training.Adagrad</a>|<a href="Changelog.md#ai.onnx.training.Adagrad-1">1</a>|
+|<a href="#ai.onnx.training.Adam">ai.onnx.training.Adam</a>|<a href="Changelog.md#ai.onnx.training.Adam-1">1</a>|
+|<a href="#ai.onnx.training.Gradient">ai.onnx.training.Gradient</a>|<a href="Changelog.md#ai.onnx.training.Gradient-1">1</a>|
+|<a href="#ai.onnx.training.GraphCall">ai.onnx.training.GraphCall</a>|<a href="Changelog.md#ai.onnx.training.GraphCall-1">1</a>|
+|<a href="#ai.onnx.training.Momentum">ai.onnx.training.Momentum</a>|<a href="Changelog.md#ai.onnx.training.Momentum-1">1</a>|
+
+>>>>>>> cbee859537e33f97684244f685a08ec80f41f643
 
 ## ai.onnx (default)
 ### <a name="Abs"></a><a name="abs">**Abs**</a>
@@ -186,7 +368,7 @@
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Abs-1">Abs-1</a>
+Other versions of this operator: <a href="Changelog.md#Abs-1">1</a>
 
 #### Inputs
 
@@ -375,7 +557,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Add-1">Add-1</a>, <a href="Changelog.md#Add-6">Add-6</a>
+Other versions of this operator: <a href="Changelog.md#Add-1">1</a>, <a href="Changelog.md#Add-6">6</a>
 
 #### Inputs
 
@@ -452,7 +634,7 @@ expect(node, inputs=[x, y], outputs=[x + y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#And-1">And-1</a>
+Other versions of this operator: <a href="Changelog.md#And-1">1</a>
 
 #### Inputs
 
@@ -580,7 +762,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ArgMax-1">ArgMax-1</a>, <a href="Changelog.md#ArgMax-11">ArgMax-11</a>
+Other versions of this operator: <a href="Changelog.md#ArgMax-1">1</a>, <a href="Changelog.md#ArgMax-11">11</a>
 
 #### Attributes
 
@@ -841,7 +1023,7 @@ expect(node, inputs=[data], outputs=[result], name='test_argmax_no_keepdims_rand
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ArgMin-1">ArgMin-1</a>, <a href="Changelog.md#ArgMin-11">ArgMin-11</a>
+Other versions of this operator: <a href="Changelog.md#ArgMin-1">1</a>, <a href="Changelog.md#ArgMin-11">11</a>
 
 #### Attributes
 
@@ -1348,7 +1530,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#AveragePool-1">AveragePool-1</a>, <a href="Changelog.md#AveragePool-7">AveragePool-7</a>, <a href="Changelog.md#AveragePool-10">AveragePool-10</a>
+Other versions of this operator: <a href="Changelog.md#AveragePool-1">1</a>, <a href="Changelog.md#AveragePool-7">7</a>, <a href="Changelog.md#AveragePool-10">10</a>
 
 #### Attributes
 
@@ -1835,7 +2017,11 @@ expect(node, inputs=[x], outputs=[y], name='test_averagepool_3d_default')
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
+<<<<<<< HEAD
 Other versions of this operator: <a href="Changelog.md#BatchNormalization-1">BatchNormalization-1</a>, <a href="Changelog.md#BatchNormalization-6">BatchNormalization-6</a>, <a href="Changelog.md#BatchNormalization-7">BatchNormalization-7</a>
+=======
+Other versions of this operator: <a href="Changelog.md#BatchNormalization-1">1</a>, <a href="Changelog.md#BatchNormalization-6">6</a>, <a href="Changelog.md#BatchNormalization-7">7</a>, <a href="Changelog.md#BatchNormalization-9">9</a>
+>>>>>>> cbee859537e33f97684244f685a08ec80f41f643
 
 #### Attributes
 
@@ -2187,7 +2373,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Cast-1">Cast-1</a>, <a href="Changelog.md#Cast-6">Cast-6</a>
+Other versions of this operator: <a href="Changelog.md#Cast-1">1</a>, <a href="Changelog.md#Cast-6">6</a>
 
 #### Attributes
 
@@ -2281,7 +2467,7 @@ for from_type, to_type in test_cases:
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Ceil-1">Ceil-1</a>
+Other versions of this operator: <a href="Changelog.md#Ceil-1">1</a>
 
 #### Inputs
 
@@ -2420,7 +2606,7 @@ expect(node, inputs=[input_data], outputs=[expected_output],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Clip-1">Clip-1</a>, <a href="Changelog.md#Clip-6">Clip-6</a>, <a href="Changelog.md#Clip-11">Clip-11</a>
+Other versions of this operator: <a href="Changelog.md#Clip-1">1</a>, <a href="Changelog.md#Clip-6">6</a>, <a href="Changelog.md#Clip-11">11</a>
 
 #### Inputs (1 - 3)
 
@@ -2596,7 +2782,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Compress-9">Compress-9</a>
+Other versions of this operator: <a href="Changelog.md#Compress-9">9</a>
 
 #### Attributes
 
@@ -2736,7 +2922,7 @@ expect(node, inputs=[input, condition.astype(np.bool)], outputs=[output],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Concat-1">Concat-1</a>, <a href="Changelog.md#Concat-4">Concat-4</a>
+Other versions of this operator: <a href="Changelog.md#Concat-1">1</a>, <a href="Changelog.md#Concat-4">4</a>
 
 #### Attributes
 
@@ -2865,7 +3051,7 @@ This version of the operator has been available since version 11 of the default 
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Constant-1">Constant-1</a>, <a href="Changelog.md#Constant-9">Constant-9</a>, <a href="Changelog.md#Constant-11">Constant-11</a>
+Other versions of this operator: <a href="Changelog.md#Constant-1">1</a>, <a href="Changelog.md#Constant-9">9</a>, <a href="Changelog.md#Constant-11">11</a>
 
 #### Attributes
 
@@ -3046,7 +3232,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Conv-1">Conv-1</a>
+Other versions of this operator: <a href="Changelog.md#Conv-1">1</a>
 
 #### Attributes
 
@@ -3325,7 +3511,7 @@ expect(convinteger_node_with_padding, inputs=[x, w, x_zero_point], outputs=[y_wi
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ConvTranspose-1">ConvTranspose-1</a>
+Other versions of this operator: <a href="Changelog.md#ConvTranspose-1">1</a>
 
 #### Attributes
 
@@ -4018,7 +4204,7 @@ expect(node, inputs=[x, axis], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#DepthToSpace-1">DepthToSpace-1</a>
+Other versions of this operator: <a href="Changelog.md#DepthToSpace-1">1</a>
 
 #### Attributes
 
@@ -4289,7 +4475,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Div-1">Div-1</a>, <a href="Changelog.md#Div-6">Div-6</a>
+Other versions of this operator: <a href="Changelog.md#Div-1">1</a>, <a href="Changelog.md#Div-6">6</a>
 
 #### Inputs
 
@@ -4382,7 +4568,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Dropout-1">Dropout-1</a>, <a href="Changelog.md#Dropout-6">Dropout-6</a>, <a href="Changelog.md#Dropout-7">Dropout-7</a>, <a href="Changelog.md#Dropout-10">Dropout-10</a>
+Other versions of this operator: <a href="Changelog.md#Dropout-1">1</a>, <a href="Changelog.md#Dropout-6">6</a>, <a href="Changelog.md#Dropout-7">7</a>, <a href="Changelog.md#Dropout-10">10</a>
 
 #### Attributes
 
@@ -4965,7 +5151,7 @@ expect(node, inputs=[X], outputs=[Y], name='test_einsum_transpose')
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Elu-1">Elu-1</a>
+Other versions of this operator: <a href="Changelog.md#Elu-1">1</a>
 
 #### Attributes
 
@@ -5054,7 +5240,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Equal-1">Equal-1</a>, <a href="Changelog.md#Equal-7">Equal-7</a>
+Other versions of this operator: <a href="Changelog.md#Equal-1">1</a>, <a href="Changelog.md#Equal-7">7</a>
 
 #### Inputs
 
@@ -5183,7 +5369,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Exp-1">Exp-1</a>
+Other versions of this operator: <a href="Changelog.md#Exp-1">1</a>
 
 #### Inputs
 
@@ -5452,7 +5638,7 @@ expect(node, inputs=[x], outputs=[y], name='test_eyelike_without_dtype')
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Flatten-1">Flatten-1</a>, <a href="Changelog.md#Flatten-9">Flatten-9</a>
+Other versions of this operator: <a href="Changelog.md#Flatten-1">1</a>, <a href="Changelog.md#Flatten-9">9</a>
 
 #### Attributes
 
@@ -5564,7 +5750,7 @@ expect(node, inputs=[a], outputs=[b],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Floor-1">Floor-1</a>
+Other versions of this operator: <a href="Changelog.md#Floor-1">1</a>
 
 #### Inputs
 
@@ -5694,7 +5880,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#GRU-1">GRU-1</a>, <a href="Changelog.md#GRU-3">GRU-3</a>
+Other versions of this operator: <a href="Changelog.md#GRU-1">1</a>, <a href="Changelog.md#GRU-3">3</a>
 
 #### Attributes
 
@@ -5915,7 +6101,7 @@ expect(node, inputs=[input, W, R, B], outputs=[Y_h.astype(np.float32)], name='te
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Gather-1">Gather-1</a>
+Other versions of this operator: <a href="Changelog.md#Gather-1">1</a>
 
 #### Attributes
 
@@ -6296,7 +6482,7 @@ expect(node, inputs=[data, indices.astype(np.int64)], outputs=[y],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#GatherND-11">GatherND-11</a>
+Other versions of this operator: <a href="Changelog.md#GatherND-11">11</a>
 
 #### Attributes
 
@@ -6418,7 +6604,7 @@ expect(node, inputs=[data, indices], outputs=[output],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Gemm-1">Gemm-1</a>, <a href="Changelog.md#Gemm-6">Gemm-6</a>, <a href="Changelog.md#Gemm-7">Gemm-7</a>, <a href="Changelog.md#Gemm-9">Gemm-9</a>
+Other versions of this operator: <a href="Changelog.md#Gemm-1">1</a>, <a href="Changelog.md#Gemm-6">6</a>, <a href="Changelog.md#Gemm-7">7</a>, <a href="Changelog.md#Gemm-9">9</a>
 
 #### Attributes
 
@@ -6774,7 +6960,7 @@ expect(node, inputs=[x], outputs=[y], name='test_globalaveragepool_precomputed')
 
 This version of the operator has been available since version 2 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#GlobalLpPool-1">GlobalLpPool-1</a>
+Other versions of this operator: <a href="Changelog.md#GlobalLpPool-1">1</a>
 
 #### Attributes
 
@@ -6893,7 +7079,7 @@ expect(node, inputs=[x], outputs=[y], name='test_globalmaxpool_precomputed')
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Greater-1">Greater-1</a>, <a href="Changelog.md#Greater-7">Greater-7</a>
+Other versions of this operator: <a href="Changelog.md#Greater-1">1</a>, <a href="Changelog.md#Greater-7">7</a>
 
 #### Inputs
 
@@ -7050,7 +7236,7 @@ This version of the operator has been available since version 12 of the default 
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#HardSigmoid-1">HardSigmoid-1</a>
+Other versions of this operator: <a href="Changelog.md#HardSigmoid-1">1</a>
 
 #### Attributes
 
@@ -7152,7 +7338,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Hardmax-1">Hardmax-1</a>
+Other versions of this operator: <a href="Changelog.md#Hardmax-1">1</a>
 
 #### Attributes
 
@@ -7333,7 +7519,7 @@ expect(node, inputs=[data], outputs=[data],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#If-1">If-1</a>
+Other versions of this operator: <a href="Changelog.md#If-1">1</a>
 
 #### Attributes
 
@@ -7381,7 +7567,7 @@ Other versions of this operator: <a href="Changelog.md#If-1">If-1</a>
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#InstanceNormalization-1">InstanceNormalization-1</a>
+Other versions of this operator: <a href="Changelog.md#InstanceNormalization-1">1</a>
 
 #### Attributes
 
@@ -7824,7 +8010,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#LSTM-1">LSTM-1</a>
+Other versions of this operator: <a href="Changelog.md#LSTM-1">1</a>
 
 #### Attributes
 
@@ -8000,7 +8186,7 @@ expect(node, inputs=[input, W, R, B, seq_lens, init_h, init_c, P], outputs=[Y_h.
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#LeakyRelu-1">LeakyRelu-1</a>
+Other versions of this operator: <a href="Changelog.md#LeakyRelu-1">1</a>
 
 #### Attributes
 
@@ -8089,7 +8275,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Less-1">Less-1</a>, <a href="Changelog.md#Less-7">Less-7</a>
+Other versions of this operator: <a href="Changelog.md#Less-1">1</a>, <a href="Changelog.md#Less-7">7</a>
 
 #### Inputs
 
@@ -8244,7 +8430,7 @@ This version of the operator has been available since version 12 of the default 
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Log-1">Log-1</a>
+Other versions of this operator: <a href="Changelog.md#Log-1">1</a>
 
 #### Inputs
 
@@ -8315,7 +8501,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#LogSoftmax-1">LogSoftmax-1</a>
+Other versions of this operator: <a href="Changelog.md#LogSoftmax-1">1</a>
 
 #### Attributes
 
@@ -8583,7 +8769,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Loop-1">Loop-1</a>
+Other versions of this operator: <a href="Changelog.md#Loop-1">1</a>
 
 #### Attributes
 
@@ -8673,7 +8859,7 @@ This version of the operator has been available since version 1 of the default O
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#LpPool-1">LpPool-1</a>, <a href="Changelog.md#LpPool-2">LpPool-2</a>
+Other versions of this operator: <a href="Changelog.md#LpPool-1">1</a>, <a href="Changelog.md#LpPool-2">2</a>
 
 #### Attributes
 
@@ -8720,7 +8906,7 @@ Other versions of this operator: <a href="Changelog.md#LpPool-1">LpPool-1</a>, <
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#MatMul-1">MatMul-1</a>
+Other versions of this operator: <a href="Changelog.md#MatMul-1">1</a>
 
 #### Inputs
 
@@ -8869,7 +9055,7 @@ expect(node, inputs=[A, B, a_zero_point, b_zero_point], outputs=[output],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Max-1">Max-1</a>, <a href="Changelog.md#Max-6">Max-6</a>, <a href="Changelog.md#Max-8">Max-8</a>
+Other versions of this operator: <a href="Changelog.md#Max-1">1</a>, <a href="Changelog.md#Max-6">6</a>, <a href="Changelog.md#Max-8">8</a>
 
 #### Inputs (1 - &#8734;)
 
@@ -8988,7 +9174,7 @@ for op_dtype in all_numeric_dtypes:
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#MaxPool-1">MaxPool-1</a>, <a href="Changelog.md#MaxPool-8">MaxPool-8</a>, <a href="Changelog.md#MaxPool-10">MaxPool-10</a>, <a href="Changelog.md#MaxPool-11">MaxPool-11</a>
+Other versions of this operator: <a href="Changelog.md#MaxPool-1">1</a>, <a href="Changelog.md#MaxPool-8">8</a>, <a href="Changelog.md#MaxPool-10">10</a>, <a href="Changelog.md#MaxPool-11">11</a>
 
 #### Attributes
 
@@ -9601,7 +9787,7 @@ This version of the operator has been available since version 1 of the default O
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#MaxUnpool-9">MaxUnpool-9</a>
+Other versions of this operator: <a href="Changelog.md#MaxUnpool-9">9</a>
 
 #### Attributes
 
@@ -9706,7 +9892,7 @@ expect(node, inputs=[xT, xI], outputs=[y], name='test_maxunpool_export_without_o
 
 This version of the operator has been available since version 8 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Mean-1">Mean-1</a>, <a href="Changelog.md#Mean-6">Mean-6</a>
+Other versions of this operator: <a href="Changelog.md#Mean-1">1</a>, <a href="Changelog.md#Mean-6">6</a>
 
 #### Inputs (1 - &#8734;)
 
@@ -9854,7 +10040,7 @@ expect(node, inputs=[input_data], outputs=[expected_output],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Min-1">Min-1</a>, <a href="Changelog.md#Min-6">Min-6</a>, <a href="Changelog.md#Min-8">Min-8</a>
+Other versions of this operator: <a href="Changelog.md#Min-1">1</a>, <a href="Changelog.md#Min-6">6</a>, <a href="Changelog.md#Min-8">8</a>
 
 #### Inputs (1 - &#8734;)
 
@@ -10273,7 +10459,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Mul-1">Mul-1</a>, <a href="Changelog.md#Mul-6">Mul-6</a>
+Other versions of this operator: <a href="Changelog.md#Mul-1">1</a>, <a href="Changelog.md#Mul-6">6</a>
 
 #### Inputs
 
@@ -10401,7 +10587,7 @@ This version of the operator has been available since version 7 of the default O
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Neg-1">Neg-1</a>
+Other versions of this operator: <a href="Changelog.md#Neg-1">1</a>
 
 #### Inputs
 
@@ -11111,7 +11297,7 @@ expect(node, inputs=[input, target], outputs=[negative_log_likelihood_loss],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#NonMaxSuppression-10">NonMaxSuppression-10</a>
+Other versions of this operator: <a href="Changelog.md#NonMaxSuppression-10">10</a>
 
 #### Attributes
 
@@ -11557,7 +11743,7 @@ expect(node, inputs=[x], outputs=[np.logical_not(x)],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#OneHot-9">OneHot-9</a>
+Other versions of this operator: <a href="Changelog.md#OneHot-9">9</a>
 
 #### Attributes
 
@@ -11710,7 +11896,7 @@ expect(node, inputs=[indices, depth, values], outputs=[y], name='test_onehot_wit
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Or-1">Or-1</a>
+Other versions of this operator: <a href="Changelog.md#Or-1">1</a>
 
 #### Inputs
 
@@ -11835,7 +12021,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 9 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#PRelu-1">PRelu-1</a>, <a href="Changelog.md#PRelu-6">PRelu-6</a>, <a href="Changelog.md#PRelu-7">PRelu-7</a>
+Other versions of this operator: <a href="Changelog.md#PRelu-1">1</a>, <a href="Changelog.md#PRelu-6">6</a>, <a href="Changelog.md#PRelu-7">7</a>
 
 #### Inputs
 
@@ -11993,7 +12179,7 @@ expect(node, inputs=[x, slope], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Pad-1">Pad-1</a>, <a href="Changelog.md#Pad-2">Pad-2</a>
+Other versions of this operator: <a href="Changelog.md#Pad-1">1</a>, <a href="Changelog.md#Pad-2">2</a>
 
 #### Attributes
 
@@ -12094,7 +12280,7 @@ for mode in ['edge', 'reflect']:
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Pow-1">Pow-1</a>, <a href="Changelog.md#Pow-7">Pow-7</a>
+Other versions of this operator: <a href="Changelog.md#Pow-1">1</a>, <a href="Changelog.md#Pow-7">7</a>
 
 #### Inputs
 
@@ -12616,7 +12802,7 @@ expect(node, inputs=[x, y_scale, y_zero_point], outputs=[y],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#RNN-1">RNN-1</a>
+Other versions of this operator: <a href="Changelog.md#RNN-1">1</a>
 
 #### Attributes
 
@@ -13078,7 +13264,7 @@ expect(node, inputs=[start, limit, delta], outputs=[output],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Reciprocal-1">Reciprocal-1</a>
+Other versions of this operator: <a href="Changelog.md#Reciprocal-1">1</a>
 
 #### Inputs
 
@@ -13141,7 +13327,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceL1-1">ReduceL1-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceL1-1">1</a>
 
 #### Attributes
 
@@ -13340,7 +13526,7 @@ expect(node, inputs=[data], outputs=[reduced],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceL2-1">ReduceL2-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceL2-1">1</a>
 
 #### Attributes
 
@@ -13552,7 +13738,7 @@ expect(node, inputs=[data], outputs=[reduced],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceLogSum-1">ReduceLogSum-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceLogSum-1">1</a>
 
 #### Attributes
 
@@ -13670,7 +13856,7 @@ expect(node, inputs=[data], outputs=[reduced],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceLogSumExp-1">ReduceLogSumExp-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceLogSumExp-1">1</a>
 
 #### Attributes
 
@@ -13881,7 +14067,7 @@ expect(node, inputs=[data], outputs=[reduced],
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceMax-1">ReduceMax-1</a>, <a href="Changelog.md#ReduceMax-11">ReduceMax-11</a>
+Other versions of this operator: <a href="Changelog.md#ReduceMax-1">1</a>, <a href="Changelog.md#ReduceMax-11">11</a>
 
 #### Attributes
 
@@ -14061,7 +14247,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_max_negative_ax
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceMean-1">ReduceMean-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceMean-1">1</a>
 
 #### Attributes
 
@@ -14242,7 +14428,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_mean_negative_a
 
 This version of the operator has been available since version 12 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceMin-1">ReduceMin-1</a>, <a href="Changelog.md#ReduceMin-11">ReduceMin-11</a>
+Other versions of this operator: <a href="Changelog.md#ReduceMin-1">1</a>, <a href="Changelog.md#ReduceMin-11">11</a>
 
 #### Attributes
 
@@ -14421,7 +14607,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_min_negative_ax
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceProd-1">ReduceProd-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceProd-1">1</a>
 
 #### Attributes
 
@@ -14598,7 +14784,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_prod_negative_a
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceSum-1">ReduceSum-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceSum-1">1</a>
 
 #### Attributes
 
@@ -14779,7 +14965,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_sum_negative_ax
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#ReduceSumSquare-1">ReduceSumSquare-1</a>
+Other versions of this operator: <a href="Changelog.md#ReduceSumSquare-1">1</a>
 
 #### Attributes
 
@@ -14957,7 +15143,7 @@ expect(node, inputs=[data], outputs=[reduced], name='test_reduce_sum_square_nega
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Relu-1">Relu-1</a>
+Other versions of this operator: <a href="Changelog.md#Relu-1">1</a>
 
 #### Inputs
 
@@ -15015,7 +15201,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 5 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Reshape-1">Reshape-1</a>
+Other versions of this operator: <a href="Changelog.md#Reshape-1">1</a>
 
 #### Inputs
 
@@ -15087,7 +15273,7 @@ for test_name, shape in test_cases.items():
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Resize-10">Resize-10</a>
+Other versions of this operator: <a href="Changelog.md#Resize-10">10</a>
 
 #### Attributes
 
@@ -16651,7 +16837,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Scan-8">Scan-8</a>, <a href="Changelog.md#Scan-9">Scan-9</a>
+Other versions of this operator: <a href="Changelog.md#Scan-8">8</a>, <a href="Changelog.md#Scan-9">9</a>
 
 #### Attributes
 
@@ -16861,7 +17047,7 @@ expect(node, inputs=[initial, x], outputs=[y, z],
 
 This version of the operator has been deprecated since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Scatter-9">Scatter-9</a>
+Other versions of this operator: <a href="Changelog.md#Scatter-9">9</a>
 
 
 #### Examples
@@ -17224,7 +17410,7 @@ expect(node, inputs=[data, indices, updates], outputs=[output],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Selu-1">Selu-1</a>
+Other versions of this operator: <a href="Changelog.md#Selu-1">1</a>
 
 #### Attributes
 
@@ -17680,7 +17866,7 @@ expect(node, inputs=[X], outputs=[Y],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Sigmoid-1">Sigmoid-1</a>
+Other versions of this operator: <a href="Changelog.md#Sigmoid-1">1</a>
 
 #### Inputs
 
@@ -18000,7 +18186,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Slice-1">Slice-1</a>, <a href="Changelog.md#Slice-10">Slice-10</a>
+Other versions of this operator: <a href="Changelog.md#Slice-1">1</a>, <a href="Changelog.md#Slice-10">10</a>
 
 #### Inputs (3 - 5)
 
@@ -18245,7 +18431,7 @@ expect(node, inputs=[x, starts, ends, axes, steps], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Softmax-1">Softmax-1</a>
+Other versions of this operator: <a href="Changelog.md#Softmax-1">1</a>
 
 #### Attributes
 
@@ -19634,7 +19820,7 @@ This version of the operator has been available since version 1 of the default O
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Split-1">Split-1</a>, <a href="Changelog.md#Split-2">Split-2</a>
+Other versions of this operator: <a href="Changelog.md#Split-1">1</a>, <a href="Changelog.md#Split-2">2</a>
 
 #### Attributes
 
@@ -19851,7 +20037,7 @@ This version of the operator has been available since version 11 of the default 
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Sqrt-1">Sqrt-1</a>
+Other versions of this operator: <a href="Changelog.md#Sqrt-1">1</a>
 
 #### Inputs
 
@@ -19912,7 +20098,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Squeeze-1">Squeeze-1</a>
+Other versions of this operator: <a href="Changelog.md#Squeeze-1">1</a>
 
 #### Attributes
 
@@ -20175,7 +20361,7 @@ expect(node, inputs=[input], outputs=[output], name='test_strnormalizer_nostopwo
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Sub-1">Sub-1</a>, <a href="Changelog.md#Sub-6">Sub-6</a>
+Other versions of this operator: <a href="Changelog.md#Sub-1">1</a>, <a href="Changelog.md#Sub-6">6</a>
 
 #### Inputs
 
@@ -20259,7 +20445,7 @@ expect(node, inputs=[x, y], outputs=[z],
 
 This version of the operator has been available since version 8 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Sum-1">Sum-1</a>, <a href="Changelog.md#Sum-6">Sum-6</a>
+Other versions of this operator: <a href="Changelog.md#Sum-1">1</a>, <a href="Changelog.md#Sum-6">6</a>
 
 #### Inputs (1 - &#8734;)
 
@@ -20386,7 +20572,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Tanh-1">Tanh-1</a>
+Other versions of this operator: <a href="Changelog.md#Tanh-1">1</a>
 
 #### Inputs
 
@@ -20817,7 +21003,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been available since version 6 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Tile-1">Tile-1</a>
+Other versions of this operator: <a href="Changelog.md#Tile-1">1</a>
 
 #### Inputs
 
@@ -20926,7 +21112,7 @@ expect(node,
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#TopK-1">TopK-1</a>, <a href="Changelog.md#TopK-10">TopK-10</a>
+Other versions of this operator: <a href="Changelog.md#TopK-1">1</a>, <a href="Changelog.md#TopK-10">10</a>
 
 #### Attributes
 
@@ -21464,7 +21650,7 @@ expect(node_sorted, inputs=[x], outputs=[y, indices, inverse_indices, counts], n
 
 This version of the operator has been available since version 11 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Unsqueeze-1">Unsqueeze-1</a>
+Other versions of this operator: <a href="Changelog.md#Unsqueeze-1">1</a>
 
 #### Attributes
 
@@ -21616,7 +21802,7 @@ expect(node, inputs=[x], outputs=[y],
 
 This version of the operator has been deprecated since version 10 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Upsample-7">Upsample-7</a>, <a href="Changelog.md#Upsample-9">Upsample-9</a>
+Other versions of this operator: <a href="Changelog.md#Upsample-7">7</a>, <a href="Changelog.md#Upsample-9">9</a>
 
 
 #### Examples
@@ -21747,7 +21933,7 @@ expect(node, inputs=[condition, x, y], outputs=[z],
 
 This version of the operator has been available since version 7 of the default ONNX operator set.
 
-Other versions of this operator: <a href="Changelog.md#Xor-1">Xor-1</a>
+Other versions of this operator: <a href="Changelog.md#Xor-1">1</a>
 
 #### Inputs
 
